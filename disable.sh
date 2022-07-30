@@ -1,4 +1,8 @@
 #!/system/bin/sh
+#Advertising
+pm disable com.google.android.gms/com.google.android.gms.ads.identifier.service.AdvertisingIdService
+pm disable com.google.android.gms/com.google.android.gms.ads.identifier.service.AdvertisingIdNotificationService
+pm disable com.google.android.gms/com.google.android.gms.nearby.mediums.nearfieldcommunication.NfcAdvertisingService
 
 #Analytic
 pm disable com.google.android.gms/com.google.android.gms.analytics.service.AnalyticsService
@@ -21,6 +25,20 @@ pm disable com.google.android.gms/com.google.android.gms.semanticlocation.servic
 pm disable com.google.android.gms/com.google.android.location.wearable.WearableLocationService
 #pm disable com.google.android.gms/com.google.android.gms.chimera.MdnsPersistentBoundBrokerService
 
+#Log
+pm disable com.google.android.gms/com.google.android.gms.analytics.internal.PlayLogReportingService
+pm disable com.google.android.gms/com.google.android.gms.romanesco.ContactsLoggerUploadService
+pm disable com.google.android.gms/com.google.android.gms.magictether.logging.DailyMetricsLoggerService
+pm disable com.google.android.gms/com.google.android.gms.checkin.EventLogService
+pm disable com.google.android.gms/com.google.android.gms.backup.component.FullBackupJobLoggerService
+pm disable com.google.android.gms/com.google.android.gms.auth.account.be.accountstate.LoginAccountsChangedIntentService
+
+#Nearby Devices
+pm disable com.google.android.gms/com.google.android.gms.nearby.bootstrap.service.NearbyBootstrapService
+pm disable com.google.android.gms/com.google.android.gms.nearby.connection.service.NearbyConnectionsAndroidService
+pm disable com.google.android.gms/com.google.location.nearby.direct.service.NearbyDirectService
+pm disable com.google.android.gms/com.google.android.gms.nearby.messages.service.NearbyMessagesService
+
 #Google Play Protect
 pm disable com.google.android.gms/com.google.android.gms.droidguard.DroidGuardService
 pm disable com.google.android.gms/com.google.android.gms.droidguard.DroidGuardService_DroidGuardIsolated
@@ -40,13 +58,8 @@ pm disable com.google.android.gms/com.google.android.gms.cast.media.CastRemoteDi
 pm disable com.google.android.gms/com.google.android.gms.cast.service.CastSocketMultiplexerLifeCycleService
 pm disable com.google.android.gms/com.google.android.gms.cast.service.CastSocketMultiplexerLifeCycleService_Isolated
 pm disable com.google.android.gms/com.google.android.gms.cast.service.CastSocketMultiplexerLifeCycleService_Persistent
+
 #Trust agent
 pm disable com.google.android.gms/com.google.android.gms.auth.trustagent.GoogleTrustAgent
 pm disable com.google.android.gms/com.google.android.gms.trustagent.api.bridge.TrustAgentBridgeService
 pm disable com.google.android.gms/com.google.android.gms.trustagent.api.state.TrustAgentStateService
-
-#pm disable com.google.android.gms/com.google.android.gms.auth.setup.devicesignals.LockScreenService
-#pm disable com.google.android.gms/com.google.android.gms.chimera.CastPersistentBoundBrokerService
-#pm disable com.google.android.gms/com.google.android.location.fused.FusedLocationService 
-#pm disable com.google.android.gms/com.google.android.gms.analytics.service.AnalyticsService
-#pm disable com.google.android.gms/com.google.android.gms.analytics.AnalyticsService 
