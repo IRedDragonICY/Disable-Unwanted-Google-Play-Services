@@ -10,6 +10,18 @@ pm disable com.google.android.gms/com.google.android.gms.analytics.AnalyticsServ
 pm disable com.google.android.gms/com.google.android.gms.analytics.AnalyticsTaskService
 pm disable com.google.android.gms/com.google.android.gms.analytics.internal.PlayLogReportingService
 
+#Bug Report
+pm disable com.google.android.gms/com.google.android.gms.presencemanager.service.PresenceManagerPresenceReportService
+pm disable com.google.android.gms/com.google.android.location.reporting.service.ReportingAndroidService
+pm disable com.google.android.gms/com.google.android.gms.locationsharingreporter.service.reporting.periodic.PeriodicReporterMonitoringService
+pm disable com.google.android.gms/com.google.android.gms.analytics.internal.PlayLogReportingService
+pm disable com.google.android.gms/com.google.android.gms.feedback.LegacyBugReportService
+pm disable com.google.android.gms/com.google.android.gms.common.stats.net.NetworkReportService
+pm disable com.google.android.gms/com.google.android.gms.feedback.OfflineReportSendTaskService
+pm disable com.google.android.gms/com.google.android.gms.googlehelp.metrics.ReportBatchedMetricsGcmTaskService
+pm disable com.google.android.gms/com.google.android.location.reporting.service.ReportingSyncService
+pm disable com.google.android.gms/com.google.android.gms.usagereporting.service.UsageReportingIntentService
+
 #Location
 pm disable com.google.android.gms/com.google.android.location.fused.FusedLocationService
 pm disable com.google.android.gms/com.google.android.gms.location.persistent.LocationPersistentService
