@@ -35,7 +35,6 @@ pm disable com.google.android.gms/com.google.android.gms.locationsharing.service
 pm disable com.google.android.gms/com.google.android.gms.locationsharing.service.LocationSharingSettingInjectorService
 pm disable com.google.android.gms/com.google.android.gms.semanticlocation.service.SemanticLocationService
 pm disable com.google.android.gms/com.google.android.location.wearable.WearableLocationService
-#pm disable com.google.android.gms/com.google.android.gms.chimera.MdnsPersistentBoundBrokerService
 
 #Log
 pm disable com.google.android.gms/com.google.android.gms.analytics.internal.PlayLogReportingService
