@@ -1,6 +1,6 @@
 #!/system/bin/sh
 #Advertising
-pm disable com.google.android.gms/com.google.android.gms.ads.identifier.service.AdvertisingIdService
+#pm disable com.google.android.gms/com.google.android.gms.ads.identifier.service.AdvertisingIdService
 pm disable com.google.android.gms/com.google.android.gms.ads.identifier.service.AdvertisingIdNotificationService
 pm disable com.google.android.gms/com.google.android.gms.nearby.mediums.nearfieldcommunication.NfcAdvertisingService
 
