@@ -1,3 +1,3 @@
 # Disable-Unwanted-Google-Play-Services
 
-Mematikan service pada Googla Play Services yang tidak dibutuhkan
+Mematikan service pada Google Play Services yang tidak dibutuhkan
