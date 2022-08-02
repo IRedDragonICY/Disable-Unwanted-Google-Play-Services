@@ -1,6 +1,6 @@
 #!/system/bin/sh
 #Advertising
-#pm disable com.google.android.gms/com.google.android.gms.ads.identifier.service.AdvertisingIdService
+pm disable com.google.android.gms/com.google.android.gms.ads.identifier.service.AdvertisingIdService
 pm disable com.google.android.gms/com.google.android.gms.ads.identifier.service.AdvertisingIdNotificationService
 pm disable com.google.android.gms/com.google.android.gms.nearby.mediums.nearfieldcommunication.NfcAdvertisingService
 
@@ -9,6 +9,9 @@ pm disable com.google.android.gms/com.google.android.gms.analytics.service.Analy
 pm disable com.google.android.gms/com.google.android.gms.analytics.AnalyticsService
 pm disable com.google.android.gms/com.google.android.gms.analytics.AnalyticsTaskService
 pm disable com.google.android.gms/com.google.android.gms.analytics.internal.PlayLogReportingService
+
+#AR
+pm disable com.google.android.gms/com.google.android.location.internal.server.HardwareArProviderService 
 
 #Bug Report
 pm disable com.google.android.gms/com.google.android.gms.presencemanager.service.PresenceManagerPresenceReportService
