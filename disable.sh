@@ -61,6 +61,7 @@ su -c "pm disable com.google.android.gms/com.google.android.gms.fitness.service.
 su -c "pm disable com.google.android.gms/com.google.android.gms.fitness.service.sensors.FitSensorsBroker"
 su -c "pm disable com.google.android.gms/com.google.android.gms.fitness.service.sessions.FitSessionsBroker"
 su -c "pm disable com.google.android.gms/com.google.android.gms.fitness.sync.FitnessSyncAdapterService"
+
 #Location
 su -c "pm disable com.google.android.gms/com.google.android.location.fused.FusedLocationService"
 su -c "pm disable com.google.android.gms/com.google.android.gms.location.persistent.LocationPersistentService"
