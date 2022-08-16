@@ -30,6 +30,7 @@ su -c "pm disable com.google.android.gms/com.google.android.location.reporting.s
 su -c "pm disable com.google.android.gms/com.google.android.gms.usagereporting.service.UsageReportingIntentService"
 
 #Cast
+su -c "pm disable com.google.android.gms/com.google.android.gms.cast.service.CastPersistentService_Persistent"
 su -c "pm disable com.google.android.gms/com.google.android.gms.chimera.CastPersistentBoundBrokerService"
 su -c "pm disable com.google.android.gms/com.google.android.gms.cast.media.CastMediaRoute2ProviderService"
 su -c "pm disable com.google.android.gms/com.google.android.gms.cast.media.CastMediaRoute2ProviderService_Isolated"
