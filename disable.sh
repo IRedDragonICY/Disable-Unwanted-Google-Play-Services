@@ -3,7 +3,7 @@
 # Sleep before the script executed (in seconds)
 sleep 110
 
-# Advertising
+#Advertising
 su -c "pm disable com.google.android.gms/com.google.android.gms.ads.identifier.service.AdvertisingIdService"
 su -c "pm disable com.google.android.gms/com.google.android.gms.ads.identifier.service.AdvertisingIdNotificationService"
 su -c "pm disable com.google.android.gms/com.google.android.gms.nearby.mediums.nearfieldcommunication.NfcAdvertisingService"
@@ -46,10 +46,21 @@ su -c "pm disable com.google.android.gms/com.google.android.gms.cast.service.Cas
 su -c "pm disable com.google.android.gms/com.google.android.gms.cast.service.CastSocketMultiplexerLifeCycleService_Persistent"
 
 #Discovery Devices
-su -c "com.google.android.gms/com.google.android.gms.nearby.discovery.service.DiscoveryService"
-su -c "com.google.android.gms/com.google.firebase.components.ComponentDiscoveryService"
-su -c "com.google.android.gms/com.google.mlkit.common.internal.MlKitComponentDiscoveryService"
+su -c "pm disable com.google.android.gms/com.google.android.gms.nearby.discovery.service.DiscoveryService"
+su -c "pm disable com.google.android.gms/com.google.firebase.components.ComponentDiscoveryService"
+su -c "pm disable com.google.android.gms/com.google.mlkit.common.internal.MlKitComponentDiscoveryService"
 
+#Google Fit
+su -c "pm disable com.google.android.gms/com.google.android.gms.fitness.service.ble.FitBleBroker"
+su -c "pm disable com.google.android.gms/com.google.android.gms.fitness.service.config.FitConfigBroker"
+su -c "pm disable com.google.android.gms/com.google.android.gms.fitness.service.goals.FitGoalsBroker"
+su -c "pm disable com.google.android.gms/com.google.android.gms.fitness.service.history.FitHistoryBroker"
+su -c "pm disable com.google.android.gms/com.google.android.gms.fitness.service.internal.FitInternalBroker"
+su -c "pm disable com.google.android.gms/com.google.android.gms.fitness.service.proxy.FitProxyBroker"
+su -c "pm disable com.google.android.gms/com.google.android.gms.fitness.service.recording.FitRecordingBroker"
+su -c "pm disable com.google.android.gms/com.google.android.gms.fitness.service.sensors.FitSensorsBroker"
+su -c "pm disable com.google.android.gms/com.google.android.gms.fitness.service.sessions.FitSessionsBroker"
+su -c "pm disable com.google.android.gms/com.google.android.gms.fitness.sync.FitnessSyncAdapterService"
 #Location
 su -c "pm disable com.google.android.gms/com.google.android.location.fused.FusedLocationService"
 su -c "pm disable com.google.android.gms/com.google.android.gms.location.persistent.LocationPersistentService"
