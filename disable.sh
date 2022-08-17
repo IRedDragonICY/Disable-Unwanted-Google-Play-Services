@@ -54,6 +54,10 @@ su -c "pm disable com.google.android.gms/com.google.android.gms.nearby.discovery
 su -c "pm disable com.google.android.gms/com.google.firebase.components.ComponentDiscoveryService"
 su -c "pm disable com.google.android.gms/com.google.mlkit.common.internal.MlKitComponentDiscoveryService"
 
+#Geolocation
+su -c "pm disable com.google.android.gms/com.google.android.gms.geotimezone.GeoTimeZoneService"
+su -c "pm disable com.google.android.gms/com.google.android.gms.location.geocode.GeocodeService"
+
 #Google Fit
 su -c "pm disable com.google.android.gms/com.google.android.gms.fitness.service.ble.FitBleBroker"
 su -c "pm disable com.google.android.gms/com.google.android.gms.fitness.service.config.FitConfigBroker"
