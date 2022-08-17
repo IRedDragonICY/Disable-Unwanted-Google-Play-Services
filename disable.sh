@@ -45,6 +45,10 @@ su -c "pm disable com.google.android.gms/com.google.android.gms.cast.service.Cas
 su -c "pm disable com.google.android.gms/com.google.android.gms.cast.service.CastSocketMultiplexerLifeCycleService_Isolated"
 su -c "pm disable com.google.android.gms/com.google.android.gms.cast.service.CastSocketMultiplexerLifeCycleService_Persistent"
 
+#Debug
+su -c "pm disable com.google.android.gms/com.google.android.gms.clearcut.debug.ClearcutDebugDumpService"
+su -c "pm disable com.google.android.gms/com.google.android.gms.nearby.messages.debug.DebugPokeService"
+
 #Discovery Devices
 su -c "pm disable com.google.android.gms/com.google.android.gms.nearby.discovery.service.DiscoveryService"
 su -c "pm disable com.google.android.gms/com.google.firebase.components.ComponentDiscoveryService"
@@ -97,8 +101,25 @@ su -c "pm disable com.google.android.gms/com.google.android.gms.droidguard.Droid
 #Safety & Emergency
 su -c "pm disable com.google.android.gms/com.google.android.gms.thunderbird.EmergencyPersistentService"
 su -c "pm disable com.google.android.gms/com.google.android.gms.thunderbird.EmergencyLocationService"
+su -c "pm disable com.google.android.gms/com.google.android.gms.personalsafety.service.PersonalSafetyService"
+su -c "pm disable com.google.android.gms/com.google.android.gms.security.safebrowsing.SafeBrowsingUpdateTaskService"
 
 #Trust agent
 su -c "pm disable com.google.android.gms/com.google.android.gms.auth.trustagent.GoogleTrustAgent"
 su -c "pm disable com.google.android.gms/com.google.android.gms.trustagent.api.bridge.TrustAgentBridgeService"
 su -c "pm disable com.google.android.gms/com.google.android.gms.trustagent.api.state.TrustAgentStateService"
+
+#Wear OS
+su -c "pm disable com.google.android.gms/com.google.android.gms.dck.service.DckWearableListenerService"
+su -c "pm disable com.google.android.gms/com.google.android.gms.nearby.fastpair.service.WearableDataListenerService"
+su -c "pm disable com.google.android.gms/com.google.android.location.wearable.WearableLocationService"
+su -c "pm disable com.google.android.gms/com.google.android.location.fused.wearable.GmsWearableListenerService"
+su -c "pm disable com.google.android.gms/com.google.android.gms.mdm.services.MdmPhoneWearableListenerService"
+su -c "pm disable com.google.android.gms/com.google.android.gms.tapandpay.wear.WearProxyService"
+su -c "pm disable com.google.android.gms/com.google.android.gms.wearable.service.WearableControlService"
+su -c "pm disable com.google.android.gms/com.google.android.gms.wearable.service.WearableService"
+su -c "pm disable com.google.android.gms/com.google.android.gms.fitness.service.wearable.WearableSyncAccountService"
+su -c "pm disable com.google.android.gms/com.google.android.gms.fitness.service.wearable.WearableSyncConfigService"
+su -c "pm disable com.google.android.gms/com.google.android.gms.fitness.service.wearable.WearableSyncConnectionService"
+su -c "pm disable com.google.android.gms/com.google.android.gms.fitness.service.wearable.WearableSyncMessageService"
+su -c "pm disable com.google.android.gms/com.google.android.gms.fitness.wearables.WearableSyncService"
