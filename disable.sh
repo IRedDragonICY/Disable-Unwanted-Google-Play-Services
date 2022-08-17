@@ -66,6 +66,12 @@ su -c "pm disable com.google.android.gms/com.google.android.gms.fitness.service.
 su -c "pm disable com.google.android.gms/com.google.android.gms.fitness.service.sessions.FitSessionsBroker"
 su -c "pm disable com.google.android.gms/com.google.android.gms.fitness.sync.FitnessSyncAdapterService"
 
+#Instant Apps
+su -c "pm disable com.google.android.gms/com.google.android.gms.instantapps.service.InstantAppsService"
+su -c "pm disable com.google.android.gms/com.google.android.gms.chimera.GmsApiServiceNoInstantApps"
+su -c "pm disable com.google.android.gms/com.google.android.gms.chimera.PersistentApiServiceNoInstantApps"
+su -c "pm disable com.google.android.gms/com.google.android.gms.chimera.UiApiServiceNoInstantApps
+
 #Location
 su -c "pm disable com.google.android.gms/com.google.android.location.fused.FusedLocationService"
 su -c "pm disable com.google.android.gms/com.google.android.gms.location.persistent.LocationPersistentService"
