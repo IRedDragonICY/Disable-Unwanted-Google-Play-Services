@@ -70,6 +70,7 @@ su -c "pm disable com.google.android.gms/com.google.android.gms.fitness.service.
 su -c "pm disable com.google.android.gms/com.google.android.gms.fitness.service.sessions.FitSessionsBroker"
 su -c "pm disable com.google.android.gms/com.google.android.gms.fitness.sync.FitnessSyncAdapterService"
 
+
 #Instant Apps
 su -c "pm disable com.google.android.gms/com.google.android.gms.instantapps.service.InstantAppsService"
 su -c "pm disable com.google.android.gms/com.google.android.gms.chimera.GmsApiServiceNoInstantApps"
@@ -88,6 +89,9 @@ su -c "pm disable com.google.android.gms/com.google.android.gms.locationsharing.
 su -c "pm disable com.google.android.gms/com.google.android.gms.locationsharing.service.LocationSharingSettingInjectorService"
 su -c "pm disable com.google.android.gms/com.google.android.gms.semanticlocation.service.SemanticLocationService"
 su -c "pm disable com.google.android.gms/com.google.android.location.wearable.WearableLocationService"
+su -c "pm disable com.google.android.gms/com.google.android.gms.fitness.sensors.sample.CollectSensorService"
+su -c "pm disable com.google.android.gms/com.google.android.gms.fitness.cache.DataUpdateListenerCacheService"
+su -c "pm disable com.google.android.gms/com.google.android.gms.fitness.sync.SyncGcmTaskService"
 
 #Logger
 su -c "pm disable com.google.android.gms/com.google.android.gms.analytics.internal.PlayLogReportingService"
@@ -113,6 +117,10 @@ su -c "pm disable com.google.android.gms/com.google.android.gms.thunderbird.Emer
 su -c "pm disable com.google.android.gms/com.google.android.gms.thunderbird.EmergencyLocationService"
 su -c "pm disable com.google.android.gms/com.google.android.gms.personalsafety.service.PersonalSafetyService"
 su -c "pm disable com.google.android.gms/com.google.android.gms.security.safebrowsing.SafeBrowsingUpdateTaskService"
+
+#Promotion
+su -c "pm disable com.google.android.gms/com.google.android.gms.enpromo.PromoInternalPersistentService"
+su -c "pm disable com.google.android.gms/com.google.android.gms.enpromo.PromoInternalService"
 
 #Trust agent
 su -c "pm disable com.google.android.gms/com.google.android.gms.auth.trustagent.GoogleTrustAgent"
