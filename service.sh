@@ -134,6 +134,7 @@ su -c "pm disable com.google.android.gms/com.google.android.gms.thunderbird.Emer
 su -c "pm disable com.google.android.gms/com.google.android.gms.thunderbird.EmergencyLocationService"
 su -c "pm disable com.google.android.gms/com.google.android.gms.personalsafety.service.PersonalSafetyService"
 
+
 #Promotion
 su -c "pm disable com.google.android.gms/com.google.android.gms.enpromo.PromoInternalPersistentService"
 su -c "pm disable com.google.android.gms/com.google.android.gms.enpromo.PromoInternalService"
@@ -142,6 +143,7 @@ su -c "pm disable com.google.android.gms/com.google.android.gms.enpromo.PromoInt
 su -c "pm disable com.google.android.gms/com.google.android.gms.auth.trustagent.GoogleTrustAgent"
 su -c "pm disable com.google.android.gms/com.google.android.gms.trustagent.api.bridge.TrustAgentBridgeService"
 su -c "pm disable com.google.android.gms/com.google.android.gms.trustagent.api.state.TrustAgentStateService"
+su -c "pm disable com.google.android.gms/com.google.android.gms.kids.chimera.KidsServiceProxy"
 
 #Wear OS
 su -c "pm disable com.google.android.gms/com.google.android.gms.dck.service.DckWearableListenerService"
