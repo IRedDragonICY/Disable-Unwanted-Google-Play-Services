@@ -107,16 +107,24 @@ su -c "pm disable com.google.android.gms/com.google.android.gms.nearby.connectio
 su -c "pm disable com.google.android.gms/com.google.location.nearby.direct.service.NearbyDirectService"
 su -c "pm disable com.google.android.gms/com.google.android.gms.nearby.messages.service.NearbyMessagesService"
 
-#Google Play Protect
+#Google Play Protect & Security
 su -c "pm disable com.google.android.gms/com.google.android.gms.droidguard.DroidGuardService"
 su -c "pm disable com.google.android.gms/com.google.android.gms.droidguard.DroidGuardService_DroidGuardIsolated"
 su -c "pm disable com.google.android.gms/com.google.android.gms.droidguard.DroidGuardGcmTaskService"
+su -c "pm disable com.google.android.gms/com.google.android.gms.security.safebrowsing.SafeBrowsingUpdateTaskService"
+su -c "pm disable com.google.android.gms/com.google.android.gms.security.verifier.ApkUploadService"
+su -c "pm disable com.google.android.gms/com.google.android.gms.security.verifier.InternalApkUploadService"
+su -c "pm disable com.google.android.gms/com.google.android.gms.security.snet.SnetIdleTaskService"
+su -c "pm disable com.google.android.gms/com.google.android.gms.security.snet.SnetNormalTaskService"
+su -c "pm disable com.google.android.gms/com.google.android.gms.security.snet.SnetService"
+su -c "pm disable com.google.android.gms/com.google.android.gms.pay.security.storagekey.service.StorageKeyCacheService"
+su -c "pm disable com.google.android.gms/com.google.android.gms.tapandpay.security.StorageKeyCacheService"
+
 
 #Safety & Emergency
 su -c "pm disable com.google.android.gms/com.google.android.gms.thunderbird.EmergencyPersistentService"
 su -c "pm disable com.google.android.gms/com.google.android.gms.thunderbird.EmergencyLocationService"
 su -c "pm disable com.google.android.gms/com.google.android.gms.personalsafety.service.PersonalSafetyService"
-su -c "pm disable com.google.android.gms/com.google.android.gms.security.safebrowsing.SafeBrowsingUpdateTaskService"
 
 #Promotion
 su -c "pm disable com.google.android.gms/com.google.android.gms.enpromo.PromoInternalPersistentService"
