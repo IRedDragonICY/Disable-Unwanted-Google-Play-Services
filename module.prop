@@ -1,4 +1,4 @@
-id=migms
+id=disable_gms
 name=Disable Unwanted Google Play Service
 version=v1.1
 versionCode=2
