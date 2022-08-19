@@ -6,7 +6,7 @@ sleep 110
 #Advertising
 su -c "pm disable com.google.android.gms/com.google.android.gms.ads.identifier.service.AdvertisingIdService"
 su -c "pm disable com.google.android.gms/com.google.android.gms.ads.identifier.service.AdvertisingIdNotificationService"
-su -c "pm disable com.google.android.gms/com.google.android.gms.nearby.mediums.nearfieldcommunication.NfcAdvertisingService"
+su -c "pm disable com.google.android.gms/com.google.android.gms.nearby.mediums.nearfieldcommunication.NfcAdvertisingService  "
 
 #Analytic
 su -c "pm disable com.google.android.gms/com.google.android.gms.analytics.service.AnalyticsService"
@@ -58,7 +58,7 @@ su -c "pm disable com.google.android.gms/com.google.mlkit.common.internal.MlKitC
 su -c "pm disable com.google.android.gms/com.google.android.gms.geotimezone.GeoTimeZoneService"
 su -c "pm disable com.google.android.gms/com.google.android.gms.location.geocode.GeocodeService"
 
-#Google Fit
+#Google Fitness
 su -c "pm disable com.google.android.gms/com.google.android.gms.fitness.service.ble.FitBleBroker"
 su -c "pm disable com.google.android.gms/com.google.android.gms.fitness.service.config.FitConfigBroker"
 su -c "pm disable com.google.android.gms/com.google.android.gms.fitness.service.goals.FitGoalsBroker"
@@ -69,6 +69,9 @@ su -c "pm disable com.google.android.gms/com.google.android.gms.fitness.service.
 su -c "pm disable com.google.android.gms/com.google.android.gms.fitness.service.sensors.FitSensorsBroker"
 su -c "pm disable com.google.android.gms/com.google.android.gms.fitness.service.sessions.FitSessionsBroker"
 su -c "pm disable com.google.android.gms/com.google.android.gms.fitness.sync.FitnessSyncAdapterService"
+su -c "pm disable com.google.android.gms/com.google.android.gms.fitness.sensors.sample.CollectSensorService"
+su -c "pm disable com.google.android.gms/com.google.android.gms.fitness.cache.DataUpdateListenerCacheService"
+su -c "pm disable com.google.android.gms/com.google.android.gms.fitness.sync.SyncGcmTaskService"
 
 #Google Wallet
 su -c "pm disable com.google.android.gms/com.google.android.gms.tapandpay.globalactions.QuickAccessWalletService"
