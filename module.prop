@@ -4,4 +4,4 @@ version=v1.0
 versionCode=1
 author=Ndik
 description=Mematikan beberapa Google Play Service yang tidak dibutuhkan.
-updateJson=
+updateJson=https://github.com/IRedDragonICY/Disable-Unwanted-Google-Play-Services/blob/main/update.json
