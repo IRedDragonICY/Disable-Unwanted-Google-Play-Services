@@ -4,3 +4,4 @@ version=v1.0
 versionCode=1
 author=Ndik
 description=Mematikan beberapa Google Play Service yang tidak dibutuhkan.
+updateJson=
