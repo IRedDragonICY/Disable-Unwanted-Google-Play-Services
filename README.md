@@ -1,5 +1,5 @@
 # Disable-Unwanted-Google-Play-Services
-
+![Google](https://img.shields.io/badge/google-4285F4?style=for-the-badge&logo=google&logoColor=white)
 Mematikan service pada Google Play Services yang tidak dibutuhkan
 
 # Apakah cara kerjanya sama dengan magisk module Universal GMS Doze?
