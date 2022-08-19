@@ -8,11 +8,18 @@ su -c "pm disable com.google.android.gms/com.google.android.gms.ads.identifier.s
 su -c "pm disable com.google.android.gms/com.google.android.gms.ads.identifier.service.AdvertisingIdNotificationService"
 su -c "pm disable com.google.android.gms/com.google.android.gms.nearby.mediums.nearfieldcommunication.NfcAdvertisingService  "
 
-#Analytic
+#Analytic, Collecting Data & Stats
 su -c "pm disable com.google.android.gms/com.google.android.gms.analytics.service.AnalyticsService"
 su -c "pm disable com.google.android.gms/com.google.android.gms.analytics.AnalyticsService"
 su -c "pm disable com.google.android.gms/com.google.android.gms.analytics.AnalyticsTaskService"
 su -c "pm disable com.google.android.gms/com.google.android.gms.analytics.internal.PlayLogReportingService"
+su -c "pm disable com.google.android.gms/com.google.android.gms.tron.CollectionService"
+su -c "pm disable com.google.android.gms/com.google.android.gms.backup.stats.BackupStatsService"
+su -c "pm disable com.google.android.gms/com.google.android.gms.stats.service.DropBoxEntryAddedService"
+su -c "pm disable com.google.android.gms/com.google.android.gms.stats.eastworld.EastworldService"
+su -c "com.google.android.gms/com.google.android.gms.common.stats.GmsCoreStatsService"
+su -c "com.google.android.gms/com.google.android.gms.stats.PlatformStatsCollectorService"
+su -c "com.google.android.gms/com.google.android.gms.common.stats.StatsUploadService"
 
 #AR
 su -c "pm disable com.google.android.gms/com.google.android.location.internal.server.HardwareArProviderService"
@@ -128,12 +135,10 @@ su -c "pm disable com.google.android.gms/com.google.android.gms.security.snet.Sn
 su -c "pm disable com.google.android.gms/com.google.android.gms.pay.security.storagekey.service.StorageKeyCacheService"
 su -c "pm disable com.google.android.gms/com.google.android.gms.tapandpay.security.StorageKeyCacheService"
 
-
 #Safety & Emergency
 su -c "pm disable com.google.android.gms/com.google.android.gms.thunderbird.EmergencyPersistentService"
 su -c "pm disable com.google.android.gms/com.google.android.gms.thunderbird.EmergencyLocationService"
 su -c "pm disable com.google.android.gms/com.google.android.gms.personalsafety.service.PersonalSafetyService"
-
 
 #Promotion
 su -c "pm disable com.google.android.gms/com.google.android.gms.enpromo.PromoInternalPersistentService"
