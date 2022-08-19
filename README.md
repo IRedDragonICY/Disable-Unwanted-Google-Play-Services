@@ -1,6 +1,6 @@
 # Disable-Unwanted-Google-Play-Services
 ![Google](https://img.shields.io/badge/google-4285F4?style=for-the-badge&logo=google&logoColor=white)
-![version](https://img.shields.io/badge/version-1.0-blue)
+![version](https://img.shields.io/badge/version-1.0-green)
 
 Mematikan service pada Google Play Services yang tidak dibutuhkan
 
