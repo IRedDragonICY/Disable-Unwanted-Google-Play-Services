@@ -70,6 +70,10 @@ su -c "pm disable com.google.android.gms/com.google.android.gms.fitness.service.
 su -c "pm disable com.google.android.gms/com.google.android.gms.fitness.service.sessions.FitSessionsBroker"
 su -c "pm disable com.google.android.gms/com.google.android.gms.fitness.sync.FitnessSyncAdapterService"
 
+#Google Wallet
+su -c "pm disable com.google.android.gms/com.google.android.gms.tapandpay.globalactions.QuickAccessWalletService"
+su -c "pm disable com.google.android.gms/com.google.android.gms.tapandpay.globalactions.WalletQuickAccessWalletService"
+su -c "pm disable com.google.android.gms/com.google.android.gms.wallet.service.WalletGcmTaskService"
 
 #Instant Apps
 su -c "pm disable com.google.android.gms/com.google.android.gms.instantapps.service.InstantAppsService"
