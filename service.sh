@@ -17,7 +17,7 @@ su -c "pm disable com.google.android.gms/com.google.android.gms.analytics.intern
 #AR
 su -c "pm disable com.google.android.gms/com.google.android.location.internal.server.HardwareArProviderService"
 
-#Bug Report
+#Bug Report & Feedback
 su -c "pm disable com.google.android.gms/com.google.android.gms.presencemanager.service.PresenceManagerPresenceReportService"
 su -c "pm disable com.google.android.gms/com.google.android.location.reporting.service.ReportingAndroidService"
 su -c "pm disable com.google.android.gms/com.google.android.gms.locationsharingreporter.service.reporting.periodic.PeriodicReporterMonitoringService"
@@ -28,6 +28,7 @@ su -c "pm disable com.google.android.gms/com.google.android.gms.feedback.Offline
 su -c "pm disable com.google.android.gms/com.google.android.gms.googlehelp.metrics.ReportBatchedMetricsGcmTaskService"
 su -c "pm disable com.google.android.gms/com.google.android.location.reporting.service.ReportingSyncService"
 su -c "pm disable com.google.android.gms/com.google.android.gms.usagereporting.service.UsageReportingIntentService"
+su -c "com.google.android.gms/com.google.android.gms.feedback.FeedbackAsyncService"
 
 #Cast
 su -c "pm disable com.google.android.gms/com.google.android.gms.cast.service.CastPersistentService_Persistent"
