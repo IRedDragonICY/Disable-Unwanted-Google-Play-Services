@@ -3,11 +3,12 @@
 ![version](https://img.shields.io/badge/version-1.1-green)
 [![Github All Releases](https://img.shields.io/github/downloads/IRedDragonICY/Disable-Unwanted-Google-Play-Services/total.svg)]()
 
-Mematikan service pada Google Play Services yang tidak dibutuhkan
+Turn off unneeded Google Play Services services.
 
-# Apakah cara kerjanya sama dengan magisk module Universal GMS Doze?
-Tidak, cara kerja module Universal GMS Doze membuat Google Play Services berjalan dalam mode hemat baterai sedangkan Disable Unwanted Google Play Services mematikan service yang tidak dibutuhkan.
+# Does it work the same way as the magisk module Universal GMS Doze?
+No, the way the Universal GMS Doze module works makes Google Play Services run in battery saving mode while Disable Unwanted Google Play Services turns off unneeded services.
 
-# Progress
-Searching useless Google Play Services from A13
+# Upcoming Features
+* Searching useless Google Play Services from A13 update.
+* Add key selection function for selecting disable service.
 
