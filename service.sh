@@ -1,7 +1,7 @@
 #!/sbin/sh
 
 # Sleep before the script executed (in seconds)
-sleep 110
+sleep 95
 
 #Optimizing Code
 a="su -c"
@@ -27,7 +27,7 @@ $a "$b.stats.PlatformStatsCollectorService"
 $a "$b.common.stats.StatsUploadService"
 
 #AR
-$a "$b com.google.android.gms/com.google.android.location.internal.server.HardwareArProviderService"
+$a "$c.internal.server.HardwareArProviderService"
 
 #Bug Report & Feedback
 $a "$b.presencemanager.service.PresenceManagerPresenceReportService"
@@ -86,11 +86,15 @@ $a "$b.fitness.sensors.sample.CollectSensorService"
 $a "$b.fitness.cache.DataUpdateListenerCacheService"
 $a "$b.fitness.sync.SyncGcmTaskService"
 
-#Google Wallet
+#Google Pay & Wallet
 $a "$b.tapandpay.globalactions.QuickAccessWalletService"
 $a "$b.tapandpay.globalactions.WalletQuickAccessWalletService"
 $a "$b.wallet.service.WalletGcmTaskService"
-
+$a "$b.pay.gcmtask.PayGcmTaskService com.google.android.gms/com.google.android.gms.pay.gcmtask.PayGcmTaskService"
+$a "$b.pay.hce.service.PayHceService"
+$a "$b.pay.notifications.PayNotificationService"
+$a "$b.wallet.service.PaymentService"
+$a "$b.tapandpay.gcmtask.TapAndPayGcmTaskService"
 #Instant Apps
 $a "$b.instantapps.service.InstantAppsService"
 $a "$b.chimera.GmsApiServiceNoInstantApps"
