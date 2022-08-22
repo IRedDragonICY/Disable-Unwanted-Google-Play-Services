@@ -3,6 +3,7 @@
 # Sleep before the script executed (in seconds)
 sleep 110
 
+a="su -c"
 #Advertising
 su -c "pm disable com.google.android.gms/com.google.android.gms.ads.identifier.service.AdvertisingIdService"
 su -c "pm disable com.google.android.gms/com.google.android.gms.ads.identifier.service.AdvertisingIdNotificationService"
@@ -164,3 +165,5 @@ su -c "pm disable com.google.android.gms/com.google.android.gms.fitness.service.
 su -c "pm disable com.google.android.gms/com.google.android.gms.fitness.service.wearable.WearableSyncConnectionService"
 su -c "pm disable com.google.android.gms/com.google.android.gms.fitness.service.wearable.WearableSyncMessageService"
 su -c "pm disable com.google.android.gms/com.google.android.gms.fitness.wearables.WearableSyncService"
+
+$a "pm disable com.rayark.cytus2/com.inca.security.Service.AppGuardService"
