@@ -12,5 +12,5 @@ No, the way the Universal GMS Doze module works makes Google Play Services run i
 
 # Upcoming Features
 * Searching useless Google Play Services from A13 update.
-* Add key selection function for selecting disable service.
+* Add key selection function for selecting disable service. (Meanwhile, if there are several services needed, you can delete the line code)
 
