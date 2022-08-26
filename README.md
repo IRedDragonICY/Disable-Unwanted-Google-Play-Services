@@ -4,6 +4,9 @@
 [![Github All Releases](https://img.shields.io/github/downloads/IRedDragonICY/Disable-Unwanted-Google-Play-Services/total.svg)]()
 
 Turn off unneeded Google Play Services services.
+
+_Warning! Some features google may not work._
+
 # Compatible Devices
 * Universal
 * Minimal Android 7
