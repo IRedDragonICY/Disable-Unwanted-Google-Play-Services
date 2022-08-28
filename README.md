@@ -9,7 +9,8 @@ _Warning! Some features google may not work._
 
 # Compatible Devices
 * Universal
-* Minimal Android 7
+* Android 7 - 13
+*
 # Does it work the same way as the magisk module Universal GMS Doze?
 No, the way the Universal GMS Doze module works makes Google Play Services run in battery saving mode while Disable Unwanted Google Play Services turns off unneeded services.
 
