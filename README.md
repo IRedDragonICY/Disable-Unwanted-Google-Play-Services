@@ -19,7 +19,7 @@ No, the way the Universal GMS Doze module works makes Google Play Services run i
 # Troubleshoot
 If you want to turn on the location with minimal service.
 
-pm enable com.google.android.gms/com.google.android.location.internal.GoogleLocationManagerService
+> pm enable com.google.android.gms/com.google.android.location.internal.GoogleLocationManagerService
 
 # Support
 if you like this project, you can give a star so that it can encourage me too (⁠ ⁠ꈍ⁠ᴗ⁠ꈍ⁠)
