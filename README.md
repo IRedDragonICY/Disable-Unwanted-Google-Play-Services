@@ -1,6 +1,7 @@
 # [MAGISK MODULE] Disable-Unwanted-Google-Play-Services
 ![Google](https://img.shields.io/badge/google-4285F4?style=for-the-badge&logo=google&logoColor=white)
-![version](https://img.shields.io/badge/version-1.2-green)
+![version](https://img.shields.io/badge/Module_Version-1.2-green)
+![version](https://img.shields.io/badge/Google_Play_Services_version-22.33.13+-green)
 ![Github All Releases](https://img.shields.io/github/downloads/IRedDragonICY/Disable-Unwanted-Google-Play-Services/total.svg)
 
 Turn off unneeded Google Play Services services.
@@ -10,7 +11,7 @@ _Warning! Some features google may not work._
 # Compatible Devices
 * Universal
 * Android 7 - 13
-*
+
 # Does it work the same way as the magisk module Universal GMS Doze?
 No, the way the Universal GMS Doze module works makes Google Play Services run in battery saving mode while Disable Unwanted Google Play Services turns off unneeded services.
 
