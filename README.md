@@ -6,7 +6,8 @@
 
 Turn off unneeded Google Play Services services.
 
-_Warning! Some features google may not work._
+Before flash module please read below
+I AM NOT RESPONSIBLE IF SOME YOUR FEATURE FROM YOUR DEVICE. BEFORE FLASH THE MODULE, PLEASE READ LINE CODES AND SELECT GOOGLE SERVICES YOU NEEDS. YOU ARE FLASHING THIS MAGISK MODULE AND ITS YOUR CHOICE TO DO IT OR NOT TO DO IT AND YOU'RE THE ONE DOING IT. I JUST WANT TO HELP OTHERS OUT.
 
 # Compatible Devices
 * Universal
