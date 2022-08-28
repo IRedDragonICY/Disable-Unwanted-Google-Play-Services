@@ -16,5 +16,10 @@ No, the way the Universal GMS Doze module works makes Google Play Services run i
 # Upcoming Features
 * Add key selection function for selecting disable service. (Meanwhile, if there are several services needed, you can delete the line code in service.sh)
 
+# Troubleshoot
+If you want to turn on the location with minimal service.
+
+pm enable com.google.android.gms/com.google.android.location.internal.GoogleLocationManagerService
+
 # Support
 if you like this project, you can give a star so that it can encourage me too (⁠ ⁠ꈍ⁠ᴗ⁠ꈍ⁠)
