@@ -14,7 +14,7 @@ _Warning! Some features google may not work._
 No, the way the Universal GMS Doze module works makes Google Play Services run in battery saving mode while Disable Unwanted Google Play Services turns off unneeded services.
 
 # Upcoming Features
-* Add key selection function for selecting disable service. (Meanwhile, if there are several services needed, you can delete the line code)
+* Add key selection function for selecting disable service. (Meanwhile, if there are several services needed, you can delete the line code in service.sh)
 
 # Support
 if you like this project, you can give a star so that it can encourage me too (⁠ ⁠ꈍ⁠ᴗ⁠ꈍ⁠)
