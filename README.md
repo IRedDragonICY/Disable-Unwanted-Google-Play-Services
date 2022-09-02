@@ -30,9 +30,10 @@ If you want to turn on the location with minimal service.
 
 If you want to turn on google play games service with minimal service.
 > pm enable com.google.android.gms/com.google.android.gms.games.chimera.GamesAndroidServiceProxy 
-pm enable com.google.android.gms/com.google.android.gms.games.chimera.GamesAsyncServiceProxy
-pm enable com.google.android.gms/com.google.android.gms.games.chimera.GamesSignInIntentServiceProxy
-com.google.android.gms/com.google.android.gms.games.chimera.GamesSignInServiceProxy
+
+> pm enable com.google.android.gms/com.google.android.gms.games.chimera.GamesAsyncServiceProxy
+> pm enable com.google.android.gms/com.google.android.gms.games.chimera.GamesSignInIntentServiceProxy
+> pm enable com.google.android.gms/com.google.android.gms.games.chimera.GamesSignInServiceProxy
 
 * **Can't access/change/logout account**
 
