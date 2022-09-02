@@ -40,5 +40,7 @@ If you want to turn on google play games service with minimal service.
 * **Can't access/change/logout account**
 
 Sometimes google service stopped after service.sh, you need force stop google play services to make google service come run again.
+
+Will fixed in next update
 # Support
 if you like this project, you can give a star so that it can encourage me too (⁠ ⁠ꈍ⁠ᴗ⁠ꈍ⁠)
