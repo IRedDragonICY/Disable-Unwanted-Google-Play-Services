@@ -26,7 +26,7 @@ If you want to turn on the location with minimal service.
 
 > pm enable com.google.android.gms/com.google.android.location.internal.GoogleLocationManagerService
 
-* **I can't login to google play games in my games.*
+* **I can't login to google play games in my games.**
 
 If you want to turn on google play games service with minimal service.
 > pm enable com.google.android.gms/com.google.android.gms.games.chimera.GamesAndroidServiceProxy 
