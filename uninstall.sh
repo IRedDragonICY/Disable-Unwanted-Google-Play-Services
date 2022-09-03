@@ -1,7 +1,12 @@
 #!/sbin/sh
 
+# enable all service gms based Google Play Service 22.33.15
+
+# optimize code
 a="su -c"
 b="pm enable"
+
+# Enable gms
 $a "$b com.google.android.gms/com.google.android.gms.fido.authenticator.service.AuthenticatorService"
 $a "$b com.google.android.gms/com.google.android.gms.fido.fido2.pollux.CableAuthenticatorService"
 $a "$b com.google.android.gms/com.google.android.contextmanager.service.ContextManagerService"
@@ -379,3 +384,4 @@ $a "$b com.google.android.gms/com.google.android.location.reporting.service.Uplo
 $a "$b com.google.android.gms/com.google.android.gms.nearby.exposurenotification.WakeUpService"
 $a "$b com.google.android.gms/com.google.android.gms.magictether.wifisync.WifiSyncService"
 $a "$b com.google.android.gms/com.google.android.gms.enterprise.zerotouch.businesslogic.ZeroTouchGmsTaskService"
+exit
