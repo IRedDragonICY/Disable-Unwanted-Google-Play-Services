@@ -1,3 +1,7 @@
+# v1.2.3
+Changelog:
+* Now, have fixed issue gms services didn't run.
+
 # v1.2.2
 Changelog:
 * ~Fixed issue gms services didn't run.~
@@ -9,6 +13,7 @@ Changelog:
 * Make script execute faster.
 * fixed some apps that need location services and games services.
 * ~Fixed issue gms services didn't run.~
+
 # v1.2
 Changelog:
 * Update disable gms service list.
