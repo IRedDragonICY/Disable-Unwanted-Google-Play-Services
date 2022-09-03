@@ -1,4 +1,4 @@
-# [MAGISK MODULE] Disable-Unwanted-Google-Play-Services
+# [MAGISK MODULE] Disable Unwanted Google Play Services
 ![Google](https://img.shields.io/badge/google-4285F4?style=for-the-badge&logo=google&logoColor=white)
 ![version](https://img.shields.io/badge/Module_Version-1.2-green)
 ![version](https://img.shields.io/badge/Google_Play_Services_version-22.33.13+-green)
