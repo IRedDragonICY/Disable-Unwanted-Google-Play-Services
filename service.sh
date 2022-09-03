@@ -213,4 +213,7 @@ $a "$b.$g.$d.$j.WearableSyncConnectionService"
 $a "$b.$g.$d.$j.WearableSyncMessageService"
 $a "$b.$g.wearables.WearableSyncService"
 $a "$b.backup.wear.BackupSettingsListenerService"
+
+#Google Account Fix
+su -c "pm enable com.google.android.gms/com.google.android.gms.chimera.GmsIntentOperationService_AuthAccountIsolated"
 exit
