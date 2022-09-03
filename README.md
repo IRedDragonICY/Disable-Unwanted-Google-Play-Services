@@ -42,5 +42,12 @@ If you want to turn on google play games service with minimal service.
 Sometimes google service stopped after service.sh, you need force stop google play services to make google service come run again.
 
 All issues will fixed in next update
+
+# Uninstall
+Here's how to remove the module:
+1. Delete module from Magisk Module list.
+2. After delete the module, Download Termux.
+3. Copy script from [uninstall.sh](https://raw.githubusercontent.com/IRedDragonICY/Disable-Unwanted-Google-Play-Services/main/uninstall.sh). Wait till script done.
+
 # Support
 if you like this project, you can give a star so that it can encourage me too (⁠ ⁠ꈍ⁠ᴗ⁠ꈍ⁠)
