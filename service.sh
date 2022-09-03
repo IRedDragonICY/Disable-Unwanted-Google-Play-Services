@@ -1,7 +1,7 @@
 #!/sbin/sh
 
 # Sleep before the script executed (in seconds)
-sleep 110
+sleep 55
 
 #Optimizing Code
 a="su -c"
@@ -47,6 +47,7 @@ $a "$b.$s.$p.StatsUploadService"
 $a "$b.checkin.CheckinApiService"
 $a "$b.checkin.CheckinService"
 $a "$b.$s.config.PhenotypeCheckinService"
+
 #AR
 $a "$c.internal.server.HardwareArProviderService"
 
@@ -118,13 +119,9 @@ $a "$b.wallet.$d.PaymentService"
 $a "$b.$q.gcmtask.TapAndPayGcmTaskService"
 
 #Google play Games
-$a "$b.$m.$i.GamesAndroidServiceProxy"
 $a "$b.gp.gameservice.GameService"
 $a "$b.gp.gameservice.GameSessionService"
-$a "$b.$m.$i.GamesAsyncServiceProxy"
 $a "$b.$m.$i.GamesSignInIntentServiceProxy"
-$a "$b.$m.$i.GamesSignInServiceProxy"
-$a "$b.$m.$i.GamesSyncServiceMainProxy"
 $a "$b.$m.$i.GamesSyncServiceNotificationProxy"
 $a "$b.$m.$i.GamesUploadServiceProxy"
 
@@ -137,7 +134,6 @@ $a "$b.$i.UiApiServiceNoInstantApps"
 #Location
 $a "$c.fused.FusedLocationService"
 $a "$b.location.persistent.LocationPersistentService"
-$a "$c.internal.GoogleLocationManagerService"
 $a "$c.internal.server.GoogleLocationService"
 $a "$c.network.NetworkLocationService"
 $a "$c.util.LocationAccuracyInjectorService"
@@ -156,7 +152,6 @@ $a "$b.romanesco.ContactsLoggerUploadService"
 $a "$b.magictether.logging.DailyMetricsLoggerService"
 $a "$b.checkin.EventLogService"
 $a "$b.backup.component.FullBackupJobLoggerService"
-$a "$b.auth.account.be.accountstate.LoginAccountsChangedIntentService"
 
 #Nearby Devices
 $a "$b.$l.bootstrap.$d.NearbyBootstrapService"
@@ -217,4 +212,5 @@ $a "$b.$g.$d.$j.WearableSyncConfigService"
 $a "$b.$g.$d.$j.WearableSyncConnectionService"
 $a "$b.$g.$d.$j.WearableSyncMessageService"
 $a "$b.$g.wearables.WearableSyncService"
-$a "$b.$g.backup.wear.BackupSettingsListenerService"
+$a "$b.backup.wear.BackupSettingsListenerService"
+exit
