@@ -1,6 +1,6 @@
 id=disable_gms
 name=Disable Unwanted Google Play Service
-version=v1.2.2
+version=v1.2.3
 versionCode=5
 author=Ndik
 description=Turned off some unneeded Google Play Services.
