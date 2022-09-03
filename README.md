@@ -19,30 +19,6 @@ No, the way the Universal GMS Doze module works makes Google Play Services run i
 # Upcoming Features
 * Add key selection function for selecting disable service. (Meanwhile, if there are several services needed, you can delete the line code in service.sh)
 
-# Troubleshoot
-* **Some apps cannot access location**
-
-If you want to turn on the location with minimal service.
-
-> pm enable com.google.android.gms/com.google.android.location.internal.GoogleLocationManagerService
-
-* **I can't login to google play games in my games.**
-
-If you want to turn on google play games service with minimal service.
-> pm enable com.google.android.gms/com.google.android.gms.games.chimera.GamesAndroidServiceProxy 
-
-> pm enable com.google.android.gms/com.google.android.gms.games.chimera.GamesAsyncServiceProxy
-
-> pm enable com.google.android.gms/com.google.android.gms.games.chimera.GamesSignInIntentServiceProxy
-
-> pm enable com.google.android.gms/com.google.android.gms.games.chimera.GamesSignInServiceProxy
-
-* **Can't access/change/logout account**
-
-Sometimes google service stopped after service.sh, you need force stop google play services to make google service come run again.
-
-All issues will fixed in next update
-
 # Uninstall
 Here's how to remove the module:
 1. Delete module from Magisk Module list.
