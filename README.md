@@ -46,7 +46,7 @@ All issues will fixed in next update
 # Uninstall
 Here's how to remove the module:
 1. Delete module from Magisk Module list.
-2. After delete the module, Download Termux.
+2. After delete the module, download [Termux](https://github.com/termux/termux-app/releases/tag/v0.118.0).
 3. Copy script from [uninstall.sh](https://raw.githubusercontent.com/IRedDragonICY/Disable-Unwanted-Google-Play-Services/main/uninstall.sh). Wait till script done.
 
 # Support
