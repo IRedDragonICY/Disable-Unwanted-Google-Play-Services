@@ -4,7 +4,7 @@
 Changelog:
 * Make script execute faster.
 * fixed some apps that need location services and games services.
-* Fixed issue gms services didn't run. 
+* ~Fixed issue gms services didn't run.~
 # v1.2
 Changelog:
 * Update disable gms service list.
