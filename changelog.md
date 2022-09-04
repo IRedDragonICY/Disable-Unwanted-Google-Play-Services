@@ -1,3 +1,7 @@
+# v1.2.5
+Changelog:
+* Change account fix script execute from 2 to 3 seconds.
+
 # v1.2.4
 Changelog:
 * Patched account fix script line code that sometimes didn't run properly.
