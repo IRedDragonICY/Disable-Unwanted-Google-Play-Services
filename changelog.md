@@ -1,3 +1,7 @@
+# v1.2.4
+Changelog:
+* Patched account fix script line code that sometimes didn't run properly.
+
 # v1.2.3
 Changelog:
 * Now, have fixed issue gms services didn't run.
