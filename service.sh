@@ -215,6 +215,7 @@ $a "$b.$g.wearables.WearableSyncService"
 $a "$b.backup.wear.BackupSettingsListenerService"
 
 #Google Account Fix
+sleep 2
 su -c "pm enable com.google.android.gms/com.google.android.gms.chimera.PersistentIntentOperationService_AuthAccountIsolated"
 su -c "pm enable com.google.android.gms/com.google.android.gms.chimera.GmsIntentOperationService_AuthAccountIsolated com.google.android.gms/com.google.android.gms.chimera.GmsIntentOperationService_AuthAccountIsolate"
 su -c "pm enable com.google.android.gms/com.google.android.gms.chimera.PersistentApiService_AuthAccountIsolated"
