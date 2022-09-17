@@ -10,7 +10,7 @@ Before flash module, please read below:
 >I AM NOT RESPONSIBLE SOME YOUR FEATURE FROM YOUR DEVICE IF DOESN'T WORK PROPERLY. BEFORE FLASH THE MODULE, PLEASE READ LINE CODES AND SELECT GOOGLE SERVICES YOU NEEDS. YOU ARE FLASHING THIS MAGISK MODULE AND ITS YOUR CHOICE TO DO IT OR NOT TO DO IT AND YOU'RE THE ONE DOING IT. I JUST WANT TO HELP OTHERS OUT.
 
 # What is the Module do?
-The following module uses the Linux syntax 'pm' command.
+The following module uses the Linux syntax '[pm/package manager](http://adbcommand.com/adbshell/pm)' command.
 
 # Compatible Devices
 * Universal
