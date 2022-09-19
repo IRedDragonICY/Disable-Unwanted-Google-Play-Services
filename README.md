@@ -11,6 +11,9 @@ Before flash module, please read below:
 
 # What is the Module do?
 The following module uses the Linux syntax '[pm/package manager](http://adbcommand.com/adbshell/pm)' command.
+From package manager, we can enable/disable any application.
+Example:
+>pm disable (any service want to disable)
 
 # Compatible Devices
 * Universal
